@@ -17,3 +17,5 @@ git rm --cached 文件名 ：删除缓存区中的指定文件
 git reflog :查看参考日志
 
 git log ：查看详细日志，可以查看到详细的提交人，提交日期
+
+git reset --hard 7位版本号：实现版本穿越
