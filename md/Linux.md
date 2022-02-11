@@ -35,3 +35,15 @@ git log ：查看详细日志，可以查看到详细的提交人，提交日期
 查看日志信息如何退出，在英文输入法下输入q
 
 git reset --hard 7位版本号：实现版本穿越
+
+
+
+## 分支
+
+git branch -v: 查看分支
+
+git branch 分支名：创建新的分支
+
+git checkout 分支名：切换分支
+
+git merge 分支名：把指定的分支合并到当前分支上
