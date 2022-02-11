@@ -20,6 +20,18 @@ git add 文件名 : 将指定文件添加到暂存区
  	4.  git add . 或者git add --all 添加所有的文件
  	5.  git add 文件夹名
 
+```
+命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+
+总之，就是让这个文件回到最近一次git commit或git add时的状态。
+```
+
+
+
 git rm --cached 文件名 ：删除缓存区中的指定文件
 
  git commit -m"版本信息" 文件名 ：将暂存区中的文件提交到本地版本库
